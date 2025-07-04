@@ -24,3 +24,6 @@ Config file is rather self explanatory, however:
                                            //     of whether they're shown or not.
 }
 ```
+
+Demo:
+![ida_Shpwdp9xXH](https://github.com/user-attachments/assets/afb842c7-65e4-44da-8af3-a17031b0c612)
