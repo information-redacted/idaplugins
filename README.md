@@ -2,6 +2,7 @@
 
 ### Time Wasted (`time_wasted.py`)
 This is a really crude port of x64dbg's time wasted debugging widget because lol
+
 Generates a config in `$IDAUSR/time_wasted.config.json` and keeps data in the following places:
 - Global data in `$IDAUSR/time_wasted.global_data.json`
 - Per-IDB data in the `$ plugin time wasted` netnode
