@@ -1,12 +1,16 @@
-from PyQt5.QtWidgets import QMainWindow, QApplication, QLabel
-from PyQt5.QtCore import QTimer
 import os
 import ida_diskio
 import idaapi
 import ida_netnode
-import sip
 import time
 import json
+
+try:
+    from PyQt5.QtWidgets import QMainWindow, QApplication, QLabel
+    from PyQt5.QtCore import QTimer
+except ModuleNotFoundError:
+    from PySide6.QtWidgets import QMainWindow, QApplication, QLabel
+    from PySide6.QtCore import QTimer
 
 NETNODE_NAME = "$ plugin time wasted"
 NETNODE_DB_TIME_KEY = 0
